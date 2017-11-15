@@ -5,7 +5,7 @@ def my_select(collection)
 
   while counter<collection.size do
      if yield(collection[counter])==true
-       output << yield(collection[counter])
+       output << collection[counter]
      end
      counter+=1
   end
