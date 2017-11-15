@@ -9,5 +9,6 @@ def my_select(collection)
      end
      counter+=1
   end
+  output
  end
 end
